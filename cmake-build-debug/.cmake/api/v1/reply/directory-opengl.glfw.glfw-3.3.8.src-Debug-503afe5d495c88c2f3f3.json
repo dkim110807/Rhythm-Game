@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"opengl/glfw/glfw-3.3.8/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"opengl/glfw/glfw-3.3.8/src/libglfw3.a"
+			],
+			"targetId" : "glfw::@0a8d1c6f82d1e093ec26",
+			"targetIndex" : 8,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opengl/glfw/glfw-3.3.8/src",
+		"source" : "opengl/glfw/glfw-3.3.8/src"
+	}
+}

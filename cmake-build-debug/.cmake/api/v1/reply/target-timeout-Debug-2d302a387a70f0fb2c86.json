@@ -1,0 +1,204 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "opengl/glfw/glfw-3.3.8/tests/timeout.exe"
+		},
+		{
+			"path" : "opengl/glfw/glfw-3.3.8/tests/timeout.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"opengl/glfw/glfw-3.3.8/tests/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu99 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Coding/GSHS/Sound/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Coding/GSHS/Sound/opengl/glad/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Coding/GSHS/Sound/opengl/glm/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Coding/GSHS/Sound/opengl/openal/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Coding/GSHS/Sound/opengl/glfw/glfw-3.3.8/deps"
+				},
+				{
+					"backtrace" : 1,
+					"path" : "C:/Coding/GSHS/Sound/opengl/glfw/glfw-3.3.8/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "glfw::@0a8d1c6f82d1e093ec26"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "GLFW3/Tests"
+	},
+	"id" : "timeout::@08e4df3c5e4f39b061b8",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mwindows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "opengl\\glfw\\glfw-3.3.8\\src\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "timeout",
+	"nameOnDisk" : "timeout.exe",
+	"paths" : 
+	{
+		"build" : "opengl/glfw/glfw-3.3.8/tests",
+		"source" : "opengl/glfw/glfw-3.3.8/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "opengl/glfw/glfw-3.3.8/tests/timeout.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "opengl/glfw/glfw-3.3.8/deps/glad/gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "opengl/glfw/glfw-3.3.8/deps/glad_gl.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

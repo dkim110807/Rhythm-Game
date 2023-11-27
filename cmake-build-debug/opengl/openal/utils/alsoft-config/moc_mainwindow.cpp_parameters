@@ -1,0 +1,9 @@
+-IC:/Coding/GSHS/Sound/include
+-IC:/Coding/GSHS/Sound/opengl/glad/include
+-IC:/Coding/GSHS/Sound/opengl/glm/include
+-IC:/Coding/GSHS/Sound/opengl/freetype-2.13.2/include
+-IC:/Coding/GSHS/Sound/opengl/openal/include
+-DWIN32
+-o
+C:/Coding/GSHS/Sound/cmake-build-debug/opengl/openal/utils/alsoft-config/moc_mainwindow.cpp
+C:/Coding/GSHS/Sound/opengl/openal/utils/alsoft-config/mainwindow.h
